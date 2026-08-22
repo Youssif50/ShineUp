@@ -1,0 +1,455 @@
+body {
+
+    background-color: #F4F8FB;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1D3557;
+
+}
+
+
+.parent {
+
+    display: flex;
+    color: #FFFFFF;
+    padding: 18px 40px;
+    align-items: center;
+    background-color: #1D3557;
+    border-bottom: 2px solid #457B9D;
+
+}
+
+.shine {
+
+    margin-right: auto;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.Log,
+.booking,
+.reviews,
+.contact,
+.programs {
+
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.parent a {
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+
+
+
+.body {
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px;
+
+}
+
+.img img {
+
+    width: 400px;
+    height: 250px;
+
+}
+
+.describe {
+
+    width: 420px;
+    line-height: 1.7;
+
+}
+
+.describe h1 {
+
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+
+.describe p {
+
+    font-size: 16px;
+
+}
+
+
+
+
+.features {
+
+    display: flex;
+    background-color: #457B9D;
+    color: #FFFFFF;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.members {
+
+    padding-right: 150px;
+
+}
+
+.experience {
+
+    padding-right: 100px;
+
+}
+
+.features p {
+
+    margin: 5px;
+    text-align: center;
+
+}
+
+
+/* Section Titles */
+
+.why h2,
+.services-title h2,
+.membership-plan h2 {
+
+    text-align: center;
+    color: #1D3557;
+    font-size: 28px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.about-us {
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 50px;
+
+}
+
+.card1 fieldset,
+.card2 fieldset,
+.card3 fieldset {
+
+    width: 280px;
+    height: 230px;
+    background-color: #FFFFFF;
+    border: 2px solid #A8DADC;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+
+    font-size: 19px;
+    color: #1D3557;
+
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+
+    font-size: 14px;
+    line-height: 1.6;
+    color: #457B9D;
+
+}
+
+
+
+
+.flexing {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+
+}
+
+.flex1,
+.flex2,
+.flex3,
+.flex4 {
+
+    width: 22%;
+
+}
+
+.flex1 img,
+.flex2 img,
+.flex3 img,
+.flex4 img {
+
+    width: 100%;
+    height: 220px;
+
+}
+
+
+
+
+.service {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px 50px;
+
+}
+
+.clean,
+.oil,
+.paint {
+
+    width: 350px;
+    height: 400px;
+
+}
+
+.clean fieldset,
+.oil fieldset,
+.paint fieldset {
+
+    width: 300px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border: 2px solid #A8DADC;
+    padding: 20px;
+
+}
+
+.clean dt,
+.oil dt,
+.paint dt {
+
+    font-size: 19px;
+    color: #1D3557;
+    margin-bottom: 20px;
+
+}
+
+.clean dd,
+.oil dd,
+.paint dd {
+
+    font-size: 14px;
+    line-height: 1.7;
+    color: #457B9D;
+
+}
+
+
+
+
+.membership {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px 70px;
+
+}
+
+.free,
+.plus,
+.premium {
+
+    width: 300px;
+    height: 520px;
+
+}
+
+.free fieldset,
+.plus fieldset {
+
+    width: 250px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border: 2px solid #A8DADC;
+    padding: 20px;
+
+}
+
+.premium fieldset {
+
+    width: 250px;
+    height: 450px;
+    background-color: #FFFFFF;
+    border: 2px solid #457B9D;
+    padding: 20px;
+
+}
+
+.free h3,
+.plus h3,
+.premium h3 {
+
+    color: #1D3557;
+    font-size: 19px;
+
+}
+
+.free li,
+.plus li,
+.premium li {
+
+    margin-bottom: 15px;
+    color: #457B9D;
+    line-height: 1.4;
+
+}
+
+.premium-line {
+
+    text-align: center;
+    color: #457B9D;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.contact-section {
+
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #1D3557;
+    color: #FFFFFF;
+
+}
+
+.contact-section h2 {
+
+    font-size: 28px;
+    margin-bottom: 30px;
+
+}
+
+.contact-card {
+
+    width: 350px;
+    margin: auto;
+    background-color: #FFFFFF;
+    color: #1D3557;
+    padding: 25px;
+
+}
+
+.contact-card h3 {
+
+    font-size: 22px;
+
+}
+
+.contact-card p {
+
+    font-size: 16px;
+    margin: 15px;
+
+}
+
+
+
+.reviews-title {
+
+    text-align: center;
+    color: #1D3557;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.customer-reviews {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px 70px;
+
+}
+
+.review1,
+.review2,
+.review3 {
+
+    width: 300px;
+    height: 250px;
+
+}
+
+.review1 fieldset,
+.review2 fieldset,
+.review3 fieldset {
+
+    width: 250px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border: 2px solid #A8DADC;
+    padding: 20px;
+
+}
+
+.review1 h3,
+.review2 h3,
+.review3 h3 {
+
+    color: #1D3557;
+    font-size: 19px;
+
+}
+
+.review1 p,
+.review2 p,
+.review3 p {
+
+    color: #457B9D;
+    line-height: 1.6;
+    font-size: 14px;
+
+}
+
+.stars {
+
+    color: #F4B400 !important;
+    font-size: 20px !important;
+    letter-spacing: 2px;
+
+}
